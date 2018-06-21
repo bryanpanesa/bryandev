@@ -6,7 +6,7 @@ import './css/footer.css';
 class Footer extends Component {
     render() {
         return(
-            <footer class="footer hero">
+            <footer className="footer hero">
                 <div className="hero-body">
                     <div className="container">
                         <div className="columns has-text-centered">
@@ -21,17 +21,17 @@ class Footer extends Component {
                                 <div className="columns is-mobile">
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="https://www.facebook.com/IvexBrykzJayRo" target="_blank" title="Follow me @ivexbrykzjayro">
-                                            <i class="fab fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fab fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="https://www.instagram.com/bryanpanesa/" target="_blank" title="Follow me @bryanpanesa">
-                                            <i class="fab fa-instagram fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fab fa-instagram fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="https://twitter.com/ivexbrykzjayro" target="_blank" title="Follow me @ivexbrykzjayro">
-                                            <i class="fab fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fab fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -48,17 +48,17 @@ class Footer extends Component {
                                 <div className="columns is-mobile">
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="mailto:bryanjay.panesa@gmail.com" target="_blank" title="Shoot me an email!">
-                                            <i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="http://linkedin.com/in/bryan-jay-b-panesa-26874512a" target="_blank" title="Check out my Linkedin profile!">
-                                            <i class="fab fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fab fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
                                         <a className="has-text-grey" href="https://github.com/bryanpanesa" target="_blank" title="Check out my GitHub profile!">
-                                            <i class="fab fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+                                            <i className="fab fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                 </div>

@@ -4,7 +4,7 @@ import './css/jumbotron.css';
 class Intro extends Component {
     render() {
         return(
-            <div className="hero is-medium has-text-centered">
+            <section className="hero has-text-centered is-bold">
                 <div className="hero-body">
                     <div className="container">
                         <h1 className="title is-uppercase">Web / UI / UX Design</h1>
@@ -15,7 +15,7 @@ class Intro extends Component {
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
             
         );
     }

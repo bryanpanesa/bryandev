@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return(
             <div>
-                <Navbar />
+                <Navbar firstName="Bryan" lastName="Panesa" />
                 <div className="container">
                     <h2>qwe</h2>
                     <p>Bacon ipsum dolor amet tenderloin buffalo pork belly tail pork turkey shank ground round sausage drumstick strip steak chuck. Picanha fatback ball tip shank ham. Tongue jerky andouille, biltong chuck sirloin drumstick filet mignon alcatra. Hamburger sirloin short ribs venison, salami ball tip jerky ground round pig doner. Short loin ham bresaola porchetta andouille pastrami kielbasa shank.</p>

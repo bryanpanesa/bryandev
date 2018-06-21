@@ -8,7 +8,8 @@ class Navbar extends Component {
             <nav className="navbar is-spaced is-fixed-top">
                 <div className="navbar-brand">
                     <Link className="navbar-item" to="/">
-                        <h1 className="subtitle">{this.props.title}</h1>
+                        <span><h1 className="subtitle is-uppercase has-text-black">{this.props.firstName}</h1></span>
+                        <span><h1 className="subtitle is-uppercase has-text-grey-light">&nbsp;{this.props.lastName}</h1></span>
                     </Link>
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -32,7 +33,7 @@ class Navbar extends Component {
                                 <span>Photography</span>
                             </Link>
                             {/* <hr className="navbar-divider"/> */}
-                            <Link class="navbar-item" to="/">
+                            <Link className="navbar-item" to="/">
                                 <span className="icon">
                                     <i className="fab fa-android"></i>
                                 </span>
