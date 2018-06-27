@@ -20,17 +20,17 @@ class Footer extends Component {
                                 <p className="subtitle">Follow me on social media</p>
                                 <div className="columns is-mobile">
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="https://www.facebook.com/IvexBrykzJayRo" target="_blank" title="Follow me @ivexbrykzjayro">
+                                        <a className="has-text-grey" href="https://www.facebook.com/IvexBrykzJayRo" title="Follow me @ivexbrykzjayro">
                                             <i className="fab fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="https://www.instagram.com/bryanpanesa/" target="_blank" title="Follow me @bryanpanesa">
+                                        <a className="has-text-grey" href="https://www.instagram.com/bryanpanesa/" title="Follow me @bryanpanesa">
                                             <i className="fab fa-instagram fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="https://twitter.com/ivexbrykzjayro" target="_blank" title="Follow me @ivexbrykzjayro">
+                                        <a className="has-text-grey" href="https://twitter.com/ivexbrykzjayro" title="Follow me @ivexbrykzjayro">
                                             <i className="fab fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -47,17 +47,17 @@ class Footer extends Component {
                             <p className="subtitle">Connect connect now!</p>
                                 <div className="columns is-mobile">
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="mailto:bryanjay.panesa@gmail.com" target="_blank" title="Shoot me an email!">
+                                        <a className="has-text-grey" href="mailto:bryanjay.panesa@gmail.com" title="Shoot me an email!">
                                             <i className="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="http://linkedin.com/in/bryan-jay-b-panesa-26874512a" target="_blank" title="Check out my Linkedin profile!">
+                                        <a className="has-text-grey" href="http://linkedin.com/in/bryan-jay-b-panesa-26874512a" title="Check out my Linkedin profile!">
                                             <i className="fab fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                     <div className="column is-4">
-                                        <a className="has-text-grey" href="https://github.com/bryanpanesa" target="_blank" title="Check out my GitHub profile!">
+                                        <a className="has-text-grey" href="https://github.com/bryanpanesa" title="Check out my GitHub profile!">
                                             <i className="fab fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
                                         </a>
                                     </div>
