@@ -1,0 +1,28 @@
+[
+    {
+        "company": "Rumarocket Ltd.",
+        "role": "Front End Developer",
+        "location": "Ortigas Center, Pasig City",
+        "duration": "August 2017 - June 2018",
+        "description": [
+            "Developed and maintained company's HR analytics web application.",
+            "Created new features on the app starting from mock up and User Interface(UI)/User Experience(UX) designs up to product development.",
+            "Introduced responsive web design for the company's web application.",
+            "Managed site's Google Analytics tracking.",
+            "Programming interaction with JavaScript & TypeScript by using a web application platform like Angular 2."
+        ],
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQGyEoo3Jf6lfg/company-logo_400_400/0?e=2131920000&v=beta&t=__dxLWhH5nfN1gzbaZ4I9fohsa-qzrIlLRL3k-xpM7k"
+    },
+    {
+        "company": "Bureau of Fire Protection V",
+        "role": "Front End Developer Intern",
+        "location": "Dap-dap, Puro, Legazpi City",
+        "duration": "August 2016 - May 2016",
+        "description": [
+            "Designed and developed an Assessment and Reports System that automates BFP transactions.",
+            "Repaired computer hardware issues."
+        ],
+        "logo": "https://www.cloudlegazpi.com/balangay/image/BFP-logo.jpg"
+    }
+]
+    

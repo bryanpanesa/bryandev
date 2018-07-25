@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './css/projects.css';
+import { Link } from 'react-router-dom';
+import './css/projects-comp.css';
 
 //Images
 import bfp from '../images/projects/bfp/bfp1.PNG';
@@ -22,9 +23,11 @@ class Projects extends Component {
                             </div>
                             <div className="card-content">
                                 <div className="media">
+                                    <Link to="/projects/bfp">
                                     <div className="media-content">
                                         <p className="title is-4">BFP Region V Assessment & Reports System</p>
-                                </div>
+                                    </div>
+                                    </Link>
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">

@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
-import './css/bfp.css';
+import '../../components/css/projects.css';
 
 //Components
-import '../../components/navbar';
-import '../../components/footer';
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
 
 class Bfp extends Component {
     render() {
         return(
-            <Navbar firstName="Bryan" lastName="Panesa" />
-            <p>asdsad</p>
+            <div>
+            <Navbar firstName="Bryan" lastName="Panesa"/>
+            <section className="container">
+                <div className="columns">
+                asd
+                </div>
+            </section>
             <Footer />
+            </div>
         );
     }
 }

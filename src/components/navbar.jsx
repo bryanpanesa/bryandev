@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './css/navbar.css';
 
+const menuItems = [
+    'photography',
+    'about'
+];
+
 class Navbar extends Component {
     render() {
         return(
@@ -20,41 +25,15 @@ class Navbar extends Component {
 
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
                     <div className="navbar-end">
-                    <Link to="/" className="navbar-item is-active">Work</Link>
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <Link className="navbar-link" to="/">
-                        Not Work
-                        </Link>
-                        <div className="navbar-dropdown is-boxed">
-                            <Link className="navbar-item" disabled to="/">
-                                <span className="icon">
-                                    <i className="fas fa-camera"></i>
-                                </span>
-                                <span>Photography</span>
-                            </Link>
-                            {/* <hr className="navbar-divider"/> */}
-                            <Link className="navbar-item" to="/">
-                                <span className="icon">
-                                    <i className="fab fa-android"></i>
-                                </span>
-                                <span>Beta Testing</span>
-                            </Link>
-                        </div>
-                        
-                    </div>
-                    <Link to="/about" className="navbar-item">About</Link>
-                    <div className="navbar-item">
-                        <div className="field is-grouped">
-                        <p className="control">
-                            <a className="button is-info is-outlined" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
-                            <span className="icon">
-                                <i className="fas fa-download"></i>
-                            </span>
-                            <span>Resume</span>
-                            </a>
-                        </p>
-                        </div>
-                    </div>
+                        <Link to="/" className="navbar-item is-capitalized">Work</Link>
+                        {
+                            menuItems.map(menuItem => 
+                            <Link to={ "/" + menuItem } className="navbar-item is-capitalized">{menuItem}</Link>
+                            )
+                        }
+                        {/* <Link to="/" className="navbar-item is-active">Work</Link>
+                        <Link className="navbar-item" disabled to="/photography">Photography</Link>
+                        <Link to="/about" className="navbar-item" activeClassName="active">About</Link> */}
                     </div>
                 </div>
             </nav>
