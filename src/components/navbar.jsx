@@ -13,8 +13,8 @@ class Navbar extends Component {
             <nav className="navbar is-spaced is-fixed-top">
                 <div className="navbar-brand">
                     <Link className="navbar-item" to="/">
-                        <span><h1 className="subtitle is-uppercase has-text-black">{this.props.firstName}</h1></span>
-                        <span><h1 className="subtitle is-uppercase has-text-grey-light">&nbsp;{this.props.lastName}</h1></span>
+                        <span><h1 className="subtitle is-uppercase has-text-black">Bryan</h1></span>
+                        <span><h1 className="subtitle is-uppercase has-text-grey-light">&nbsp;Panesa</h1></span>
                     </Link>
                     <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>

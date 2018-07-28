@@ -17,7 +17,7 @@ class Footer extends Component {
                                         &#169; {new Date().getFullYear()}
                                     </span>
                                 </p>
-                                <p className="subtitle">Follow me on social media</p>
+                                <p className="subtitle">Let's connect!</p>
                             </div>
                             <div className="column">
                                 <a className="has-text-grey" href="https://www.facebook.com/IvexBrykzJayRo" title="Follow me @ivexbrykzjayro">

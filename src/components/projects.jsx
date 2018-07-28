@@ -31,10 +31,10 @@ class Projects extends Component {
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">
-                                        <span className="tag is-info">Php</span>
-                                        <span className="tag is-info">Bootstrap</span>
-                                        <span className="tag is-info">MySQL</span>
-                                        <span className="tag is-info">jQuery</span>
+                                        <span className="tag is-light">Php</span>
+                                        <span className="tag is-light">Bootstrap</span>
+                                        <span className="tag is-light">MySQL</span>
+                                        <span className="tag is-light">jQuery</span>
                                     </div>
                                 </div>
                             </div>
@@ -55,9 +55,9 @@ class Projects extends Component {
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">
-                                        <span className="tag is-info">Java</span>
-                                        <span className="tag is-info">Photoshop</span>
-                                        <span className="tag is-info">Tile Editor</span>
+                                        <span className="tag is-light">Java</span>
+                                        <span className="tag is-light">Photoshop</span>
+                                        <span className="tag is-light">Tile Editor</span>
                                     </div>
                                 </div>
                             </div>
@@ -81,10 +81,10 @@ class Projects extends Component {
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">
-                                        <span className="tag is-info">Php</span>
-                                        <span className="tag is-info">Bootstrap</span>
-                                        <span className="tag is-info">MySQL</span>
-                                        <span className="tag is-info">jQuery</span>
+                                        <span className="tag is-light">Php</span>
+                                        <span className="tag is-light">Bootstrap</span>
+                                        <span className="tag is-light">MySQL</span>
+                                        <span className="tag is-light">jQuery</span>
                                     </div>
                                 </div>
                             </div>
@@ -105,8 +105,8 @@ class Projects extends Component {
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">
-                                        <span className="tag is-info">Bootstrap</span>
-                                        <span className="tag is-info">jQuery</span>
+                                        <span className="tag is-light">Bootstrap</span>
+                                        <span className="tag is-light">jQuery</span>
                                     </div>
                                 </div>
                             </div>

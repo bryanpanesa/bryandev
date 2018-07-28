@@ -12,7 +12,7 @@ class About extends Component {
     render() {
         return(
             <div>
-                <Navbar firstName="Bryan" lastName="Panesa" />
+                <Navbar />
                 <br/><br/>
                 <section className="section">
                     <div className="container is-fluid">
@@ -38,7 +38,7 @@ class About extends Component {
                                             <article class="media">
                                                 <figure class="media-left">
                                                     <p class="image is-64x64">
-                                                        <img src={work.logo} />
+                                                        <img src={work.logo} alt="Company" />
                                                     </p>
                                                 </figure>
                                                 <div class="media-content">
@@ -79,7 +79,7 @@ class About extends Component {
                                             <article class="media">
                                                 <figure class="media-left">
                                                     <p class="image is-64x64">
-                                                        <img src={educ.logo} />
+                                                        <img src={educ.logo} alt="Company"/>
                                                     </p>
                                                 </figure>
                                                 <div class="media-content">
