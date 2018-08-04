@@ -15,6 +15,7 @@ class Projects extends Component {
                 {/* 1st row */}
                 <div className="columns">
                     <div className="column is-6">
+                        <Link to="/projects/bfp">
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image">
@@ -23,11 +24,11 @@ class Projects extends Component {
                             </div>
                             <div className="card-content">
                                 <div className="media">
-                                    <Link to="/projects/bfp">
+                                    
                                     <div className="media-content">
                                         <p className="title is-4">BFP Region V Assessment & Reports System</p>
                                     </div>
-                                    </Link>
+                                    
                                 </div>
                                 <div className="content">
                                     <div className="tags is-uppercase">
@@ -39,8 +40,10 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+                        </Link>
                     </div>
                     <div className="column is-6">
+                        <Link to="/projects/phagebiotics">
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image">
@@ -62,11 +65,13 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+                        </Link>
                     </div>
                 </div>
                 {/* 2nd row */}
                 <div className="columns">
                     <div className="column is-6">
+                        <Link to="/projects/gogon">
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image">
@@ -89,6 +94,7 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+                        </Link>
                     </div>
                     <div className="column is-6">
                         <div className="card">

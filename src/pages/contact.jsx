@@ -11,7 +11,7 @@ class Contact extends Component {
                 <Navbar />
                     <div className="container">
                         <h1>Contacts</h1>
-                        <p>09215354357</p>
+                        <p>+639215354357</p>
                     </div>
                 <Footer />
             </div>

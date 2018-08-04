@@ -6,18 +6,17 @@ import './css/footer.css';
 class Footer extends Component {
     render() {
         return(
-            <footer className="footer hero">
-                <div className="hero-body">
+            <footer className="footer">
                     <div className="container">
-                        <div className="columns has-text-centered">
-                            <div className="column is-7">
+                        <div className="columns is-mobile has-text-centered">
+                            <div className="column is-5">
                                 <p className="title is-4">
                                     <strong><Link className="has-text-black" to="/">Bryan Panesa </Link></strong>
                                     <span className="has-text-grey">
                                         &#169; {new Date().getFullYear()}
                                     </span>
                                 </p>
-                                <p className="subtitle">Let's connect!</p>
+                                {/* <p className="subtitle">Let's connect!</p> */}
                             </div>
                             <div className="column">
                                 <a className="has-text-grey" href="https://www.facebook.com/IvexBrykzJayRo" title="Follow me @ivexbrykzjayro">
@@ -51,7 +50,6 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </footer>
         );
     }

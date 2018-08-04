@@ -9,6 +9,8 @@ import Contact from './pages/contact.jsx';
 
 //Projects
 import Bfp from './pages/projects/bfp.jsx';
+import Phagebiotics from './pages/projects/phagebiotics.jsx';
+import Gogon from './pages/projects/gogon.jsx';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects/bfp" component={Bfp} />
+          <Route path="/projects/phagebiotics" component={Phagebiotics} />
+          <Route path="/projects/gogon" component={Gogon} />
         </div>
       </Router>
     );

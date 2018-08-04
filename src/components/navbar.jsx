@@ -25,7 +25,7 @@ class Navbar extends Component {
 
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
                     <div className="navbar-end">
-                        <Link to="/" className="navbar-item is-capitalized">Work</Link>
+                        <Link to="/" className="navbar-item">Work</Link>
                         {
                             menuItems.map(menuItem => 
                             <Link to={ "/" + menuItem } className="navbar-item is-capitalized">{menuItem}</Link>
