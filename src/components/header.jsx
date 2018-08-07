@@ -24,6 +24,13 @@ class Header extends Component {
                 <span className="tag is-size-5 is-white has-text-weight-bold">{role}</span>
             );
     } 
+
+    desc() {
+        return this.props.projectData.desc
+            .map(desc =>
+                <div><p className="is-size-5">{desc}</p><br/></div>
+            );
+    }
     render(){
         return(
             <div>
@@ -32,8 +39,10 @@ class Header extends Component {
                     <div className="columns">
                         <div className="column is-8 is-offset-1"><br />
                             <h1 className="is-size-3 has-text-grey-light">{this.props.projectData.title}</h1>
-                            <p className="is-size-5">{this.props.projectData.desc}
-                            <strong>{this.props.projectData.company}</strong>.</p>
+                            {
+                                this.desc()
+                            }
+                            <p><strong>{this.props.projectData.for_project}</strong>.</p>
                         </div>
                         <div className="column is-2 is-offset-1"><br />
                             <h3 className="is-size-5">{this.props.projectData.type}</h3>
