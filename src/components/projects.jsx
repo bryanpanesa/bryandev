@@ -7,6 +7,8 @@ import bfp from '../images/projects/bfp/bfp1.PNG';
 import gogon from '../images/projects/gogon/gogon1.PNG';
 import phagebiotics from '../images/projects/phagebiotics/phage2.jpg';
 import typeab from '../images/projects/typeab/type1.PNG';
+import inventory from '../images/projects/inventory/crud1.PNG';
+import presidents from '../images/projects/presidents/presidents1.PNG';
 
 class Projects extends Component {
     render() {
@@ -97,6 +99,7 @@ class Projects extends Component {
                         </Link>
                     </div>
                     <div className="column is-6">
+                        <Link to="/projects/typeab">
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image">
@@ -117,6 +120,59 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+                        </Link>
+                    </div>
+                </div>
+                {/* 3rd row */}
+                <div className="columns">
+                    <div className="column is-6">
+                        <Link to="/projects/inventory">
+                            <div className="card">
+                                <div className="card-image">
+                                    <figure className="image">
+                                        <img src={inventory} alt="PHP OOP C.R.U.D." />
+                                    </figure>
+                                </div>
+                                <div className="card-content">
+                                    <div className="media">
+                                        <div className="media-content">
+                                            <p className="title is-4">PHP OOP C.R.U.D.</p>
+                                        </div>
+                                    </div>
+                                    <div className="content">
+                                        <div className="tags is-uppercase">
+                                            <span className="tag is-light">Php</span>
+                                            <span className="tag is-light">Bootstrap</span>
+                                            <span className="tag is-light">MySQL</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="column is-6">
+                        <Link to="/projects/presidents">
+                            <div className="card">
+                                <div className="card-image">
+                                    <figure className="image">
+                                        <img src={presidents} alt="Type AB" />
+                                    </figure>
+                                </div>
+                                <div className="card-content">
+                                    <div className="media">
+                                        <div className="media-content">
+                                            <p className="title is-4">Presidents of the Philippines</p>
+                                        </div>
+                                    </div>
+                                    <div className="content">
+                                        <div className="tags is-uppercase">
+                                            <span className="tag is-light">Bootstrap</span>
+                                            <span className="tag is-light">jQuery</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </section>

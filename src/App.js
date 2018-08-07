@@ -11,6 +11,9 @@ import Contact from './pages/contact.jsx';
 import Bfp from './pages/projects/bfp.jsx';
 import Phagebiotics from './pages/projects/phagebiotics.jsx';
 import Gogon from './pages/projects/gogon.jsx';
+import Typeab from './pages/projects/typeab.jsx';
+import Inventory from './pages/projects/inventory.jsx';
+import Presidents from './pages/projects/presidents.jsx';
 
 class App extends Component {
   render() {
@@ -23,6 +26,9 @@ class App extends Component {
           <Route path="/projects/bfp" component={Bfp} />
           <Route path="/projects/phagebiotics" component={Phagebiotics} />
           <Route path="/projects/gogon" component={Gogon} />
+          <Route path="/projects/typeab" component={Typeab} />
+          <Route path="/projects/inventory" component={Inventory} />
+          <Route path="/projects/presidents" component={Presidents} />
         </div>
       </Router>
     );
