@@ -19,7 +19,6 @@ class About extends Component {
                         <div className="columns has-text">
                             <div className="column is-8 is-offset-2">
                                 <p className="is-size-3 has-text-centered">Hi, I'm <strong>Bryan Jay Panesa</strong>, a <strong>Front End Developer</strong> currently based in Manila, Philippines.</p>
-                                <p></p>
                             </div>
 
                         </div>

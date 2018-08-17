@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+
 //Components
 
 class Header extends Component {
 
-    // Map tools used for the project
+    // Function that maps tools used on projects
     tools_used() {
         return this.props.projectData.tools_used
             .map(tools =>
@@ -11,6 +12,7 @@ class Header extends Component {
             );
     }
 
+    // Function that maps team members of projects
     team() {
         return this.props.projectData.team
             .map(team => 
@@ -18,6 +20,7 @@ class Header extends Component {
             );
     }
 
+    // Function that maps my roles on projects
     role() {
         return this.props.projectData.role 
             .map(role => 
@@ -25,6 +28,7 @@ class Header extends Component {
             );
     } 
 
+    // Function that maps project descriptions
     desc() {
         return this.props.projectData.desc
             .map(desc =>

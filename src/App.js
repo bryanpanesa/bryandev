@@ -6,6 +6,7 @@ import './App.css';
 import Home from './pages/home.jsx';
 import About from './pages/about.jsx';
 import Contact from './pages/contact.jsx';
+import Photography from './pages/photography.jsx';
 
 //Projects
 import Bfp from './pages/projects/bfp.jsx';
@@ -29,6 +30,7 @@ class App extends Component {
           <Route path="/projects/typeab" component={Typeab} />
           <Route path="/projects/inventory" component={Inventory} />
           <Route path="/projects/presidents" component={Presidents} />
+          <Route path="/photography" component={Photography} />
         </div>
       </Router>
     );
