@@ -7,6 +7,11 @@
     margin: 0 0 1em;
     width: 100%;
 }
+.item:hover {
+    opacity: 0.4;
+    -moz-opacity: 0.4;
+    -webkit-opacity: 0.4;
+}
 
 /* Masonry on large screens */
 @media only screen and (min-width: 1024px) {
