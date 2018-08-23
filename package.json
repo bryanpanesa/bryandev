@@ -6,7 +6,7 @@
     "bootstrap": "^4.1.1",
     "bulma": "^0.7.1",
     "bulma-utilities": "^0.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.3.1", 
     "popper.js": "^1.14.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -21,5 +21,6 @@
     "eject": "react-scripts eject"
   },
   "author": "Bryan Jay B. Panesa",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "."
 }
