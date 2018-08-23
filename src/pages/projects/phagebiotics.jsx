@@ -7,6 +7,7 @@ import Header from '../../components/header';
 
 //Images
 import phage2 from '../../images/projects/phagebiotics/phage2.jpg';
+import phagebioticsBlock from '../../images/projects/phagebiotics/Phagebiotics-block.jpg';
 import tilemap from '../../images/projects/phagebiotics/tilemap.jpg';
 import backgrounds from '../../images/projects/phagebiotics/backgrounds.jpg';
 import explosion from '../../images/projects/phagebiotics/explosion.png';
@@ -45,7 +46,7 @@ class Phagebiotics extends Component {
         return(
             <div>
                 <figure className="image is-3by1">
-                    <img src={phage2} alt="Phagebiotics: A 2D Survival Shooting Game" />
+                    <img src={phagebioticsBlock} alt="Phagebiotics: A 2D Survival Shooting Game" />
                 </figure>
                 <Navbar />
                 <Header projectData={projectData} />

@@ -6,26 +6,12 @@ import Instafeed from 'react-instafeed';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
-// Images
-import phage2 from '../images/projects/phagebiotics/phage2.jpg';
-import phage3 from '../images/projects/phagebiotics/phage3.jpg';
-
 class Photography extends Component {
     render() {
         const instafeedTarget = 'instafeed';
         var divStyle = {
             background: 'rgba(40, 40, 40, 1)'
         }
-        var loadButton = document.getElementById('load-more');
-        const loadMore = {
-            function() {
-                // disable button if no more results to load
-                if (!this.hasNext()) {
-                    loadButton.setAttribute('disabled', 'disabled');
-                }
-            }
-        }
-        
         return(
             <div style={divStyle}>
             <Navbar />
@@ -56,24 +42,11 @@ class Photography extends Component {
                         userId='1685258470'
                         clientId='clientIdInstagramApiString'
                         accessToken='1685258470.1677ed0.fc592251962f44378a6889941fb148e2'
-                        after={
-                            function () {
-                                // disable button if no more results to load
-                                if (!this.hasNext()) {
-                                    loadButton.setAttribute('disabled', 'disabled');
-                                }
-                            }
-                        }
                     />
                 </div>
-                <button id="load-more" class="btn">Load more</button>
             <Footer />
             </div>
         );
-        // bind the load more button
-        loadButton.addEventListener('click', function () {
-            Instafeed.instafeed.next();
-        });
     }
 }
 export default Photography;

@@ -6,6 +6,7 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 
 //Images
+import typeabBlock from '../../images/projects/typeab/Typeab-block.jpg';
 import type1 from '../../images/projects/typeab/type1.PNG';
 import type2 from '../../images/projects/typeab/type2.PNG';
 import type5 from '../../images/projects/typeab/type5.PNG';
@@ -37,7 +38,7 @@ class Typeab extends Component {
         return(
             <div>
             <figure className="image is-3by1">
-                <img src={type1} alt="Type AB" />
+                <img src={typeabBlock} alt="Type AB" />
             </figure>  
             <Navbar />
             <Header projectData={projectData} />

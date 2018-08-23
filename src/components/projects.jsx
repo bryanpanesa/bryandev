@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import './css/projects-comp.css';
 
 //Images
-import bfp from '../images/projects/bfp/bfp1.PNG';
-import gogon from '../images/projects/gogon/gogon1.PNG';
-import phagebiotics from '../images/projects/phagebiotics/phage2.jpg';
-import typeab from '../images/projects/typeab/type1.PNG';
-import inventory from '../images/projects/inventory/crud1.PNG';
-import presidents from '../images/projects/presidents/presidents1.PNG';
+import bfp from '../images/projects/bfp/Bfp-block.jpg';
+import gogonBlock from '../images/projects/gogon/Gogon-block.jpg';
+import phagebiotics from '../images/projects/phagebiotics/Phagebiotics-block.jpg';
+import typeab from '../images/projects/typeab/Typeab-block.jpg';
+import inventory from '../images/projects/inventory/Inventory-block.jpg';
+import presidents from '../images/projects/presidents/Presidents-block.jpg';
 
 class Projects extends Component {
     render() {
@@ -77,7 +77,7 @@ class Projects extends Component {
                         <div className="card">
                             <div className="card-image">
                                 <figure className="image">
-                                    <img src={gogon} alt="Gogon High School Grading Module" />
+                                    <img src={gogonBlock} alt="Gogon High School Grading Module" />
                                 </figure>
                             </div>
                             <div className="card-content">

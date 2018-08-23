@@ -6,6 +6,7 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 
 //Images
+import gogonBlock from '../../images/projects/gogon/Gogon-block.jpg';
 import gogon1 from '../../images/projects/gogon/gogon1.PNG';
 import gogon2 from '../../images/projects/gogon/gogon2.PNG';
 import gogon3 from '../../images/projects/gogon/gogon3.PNG';
@@ -43,7 +44,7 @@ class Gogon extends Component {
         return(
             <div>
             <figure className="image is-3by1">
-                <img src={gogon1} alt="Bureau of Fire Protection Asssessment & Reports System" />
+                <img src={gogonBlock} alt="Bureau of Fire Protection Asssessment & Reports System" />
             </figure>  
             <Navbar />
             <Header projectData={projectData}/>

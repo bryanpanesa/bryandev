@@ -7,7 +7,7 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 
 //Images
-import bfp from '../../images/projects/bfp/bfp1.PNG';
+import bfp from '../../images/projects/bfp/Bfp-block.jpg';
 import bfp2 from '../../images/projects/bfp/bfp2.PNG';
 import bfp3 from '../../images/projects/bfp/bfp3.PNG';
 import bfp4 from '../../images/projects/bfp/bfp4.PNG';

@@ -6,6 +6,7 @@ import Footer from '../../components/footer';
 import Header from '../../components/header';
 
 //Images
+import presidentsBlock from '../../images/projects/presidents/Presidents-block.jpg';
 import pres1 from '../../images/projects/presidents/presidents1.PNG';
 import pres2 from '../../images/projects/presidents/presidents2.PNG';
 
@@ -34,7 +35,7 @@ class Presidents extends Component {
         return (
             <div>
                 <figure className="image is-3by1">
-                    <img src={pres1} alt="Presidents" />
+                    <img src={presidentsBlock} alt="Presidents" />
                 </figure>
                 <Navbar />
                 <Header projectData={projectData} />

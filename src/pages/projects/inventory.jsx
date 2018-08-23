@@ -8,7 +8,7 @@ import Header from '../../components/header';
 //Images
 import crud1 from '../../images/projects/inventory/crud1.PNG';
 import crud2 from '../../images/projects/inventory/crud2.PNG';
-import crud3 from '../../images/projects/inventory/crud3.PNG';
+import inventoryBlock from '../../images/projects/inventory/Inventory-block.jpg';
 
 class Inventory extends Component {
     render() {
@@ -36,7 +36,7 @@ class Inventory extends Component {
         return (
             <div>
                 <figure className="image is-3by1">
-                    <img src={crud1} alt="Inventory System" />
+                    <img src={inventoryBlock} alt="Inventory System" />
                 </figure>
                 <Navbar />
                 <Header projectData={projectData} />
