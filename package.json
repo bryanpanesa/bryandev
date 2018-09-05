@@ -1,7 +1,8 @@
 {
-  "name": "my-site",
+  "name": "bryandev",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bryanpanesa.github.io/bryandev",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "bulma": "^0.7.1",
@@ -15,12 +16,13 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "author": "Bryan Jay B. Panesa",
-  "license": "MIT",
-  "homepage": "."
+  "license": "MIT"
 }

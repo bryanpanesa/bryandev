@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 import './App.css';
 
 //Pages
@@ -19,8 +19,8 @@ import Presidents from './pages/projects/presidents.jsx';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
+      <HashRouter>
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
@@ -31,8 +31,8 @@ class App extends Component {
           <Route path="/projects/inventory" component={Inventory} />
           <Route path="/projects/presidents" component={Presidents} />
           <Route path="/photography" component={Photography} />
-        </div>
-      </Router>
+        </Switch>
+      </HashRouter>
     );
   }
 }
