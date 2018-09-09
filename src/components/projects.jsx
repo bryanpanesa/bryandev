@@ -13,7 +13,7 @@ import presidents from '../images/projects/presidents/Presidents-block.jpg';
 class Projects extends Component {
     render() {
         return(
-            <section className="container">
+            <section className="section">
                 {/* 1st row */}
                 <div className="columns">
                     <div className="column is-6">
@@ -28,7 +28,7 @@ class Projects extends Component {
                                 <div className="media">
                                     
                                     <div className="media-content">
-                                        <p className="title is-4">BFP Region V Assessment & Reports System</p>
+                                        <p className="title is-4">BFP Region V Assessment & Reports</p>
                                     </div>
                                     
                                 </div>

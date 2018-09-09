@@ -23,6 +23,7 @@ class Navbar extends Component {
         });
         return(
             <nav className="navbar is-spaced is-fixed-top">
+                <div className="container">
                 <div className="navbar-brand">
                     <Link className="navbar-item" to="/">
                         <span><h1 className="subtitle is-uppercase has-text-black">Bryan</h1></span>
@@ -47,6 +48,7 @@ class Navbar extends Component {
                         <Link className="navbar-item" disabled to="/photography">Photography</Link>
                         <Link to="/about" className="navbar-item" activeClassName="active">About</Link> */}
                     </div>
+                </div>
                 </div>
             </nav>
         );
