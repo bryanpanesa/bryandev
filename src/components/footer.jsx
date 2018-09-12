@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../../node_modules/bulma/css/bulma.min.css';
 import './css/footer.css';
 
@@ -13,7 +12,7 @@ class Footer extends Component {
                                 <a className="has-text-grey ico" href="https://www.facebook.com/IvexBrykzJayRo" title="Follow me @ivexbrykzjayro">
                                     <i className="fab fa-facebook fa-2x faa-vertical animated-hover" aria-hidden="true"></i>
                                 </a>
-                                <a className="has-text-grey ico" href="https://www.instagram.com/bryanpanesa/" title="Follow me @bryanpanesa">
+                                <a className="has-text-grey ico" href="https://www.instagram.com/bryan.visuals/" title="Follow me @bryan.visuals">
                                     <i className="fab fa-instagram fa-2x faa-vertical animated-hover" aria-hidden="true"></i>
                                 </a>
                             <a className="has-text-grey ico" href="mailto:bryanjay.panesa@gmail.com" title="Shoot me an email!">
