@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../../node_modules/bulma/css/bulma.min.css';
 import './css/footer.css';
 
