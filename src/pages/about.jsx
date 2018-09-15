@@ -100,7 +100,7 @@ class About extends Component {
                                         )
                                     }
                                     <br /><br />
-                                    <a className="button is-default is-outlined is-medium" href="https://github.com/bryanpanesa/bryandev/raw/hotfix/0.2.0/public/bryanpanesa-resume.pdf">
+                                    <a target="_blank" className="button is-default is-outlined is-medium" href="https://github.com/bryanpanesa/bryandev/blob/master/public/bryanpanesa-resume.pdf">
                                             <span className="icon">
                                                 <i className="fas fa-download"></i>
                                             </span>

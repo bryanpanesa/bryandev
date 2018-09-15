@@ -29,7 +29,7 @@ class Photography extends Component {
                         limit='100'
                         ref='instafeed'
                         resolution='standard_resolution'
-                        sortBy='random'
+                        sortBy='most-recent'
                         links=''
                         target={instafeedTarget}
                         template='
