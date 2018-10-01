@@ -15,6 +15,8 @@ import Gogon from './pages/projects/gogon.jsx';
 import Typeab from './pages/projects/typeab.jsx';
 import Inventory from './pages/projects/inventory.jsx';
 import Presidents from './pages/projects/presidents.jsx';
+import Positiv from './pages/projects/positiv.jsx';
+import Collab from './pages/projects/collab.jsx';
 
 class App extends Component {
   render() {
@@ -30,6 +32,8 @@ class App extends Component {
           <Route path="/projects/typeab" component={Typeab} />
           <Route path="/projects/inventory" component={Inventory} />
           <Route path="/projects/presidents" component={Presidents} />
+          <Route path="/projects/positiv" component={Positiv} />
+          <Route path="/projects/collab" component={Collab} />
           <Route path="/photography" component={Photography} />
         </Switch>
       </HashRouter>

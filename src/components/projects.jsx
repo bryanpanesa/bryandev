@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from 'react-router-dom';
-import './css/projects-comp.css';
 
-//Images
+//UI & UX Design
+import positiv from '../images/projects/positiv/positiv.jpg';
+import collab from '../images/projects/collab/collab.jpg';
+
+//Web
 import bfp from '../images/projects/bfp/Bfp-block.jpg';
 import gogonBlock from '../images/projects/gogon/Gogon-block.jpg';
 import phagebiotics from '../images/projects/phagebiotics/Phagebiotics-block.jpg';
@@ -17,10 +20,64 @@ class Projects extends Component {
             <section className="section">
                 <Tabs className="container header" id="myHeader">
                     <TabList className="tab flex flex-center">
-                        <Tab className="tab-list is-size-3 subtitle is-uppercase has-text-grey-light has-text-weight-semibold">Web</Tab>
                         <Tab className="tab-list is-size-3 subtitle is-uppercase has-text-grey-light has-text-weight-semibold">UI/UX</Tab>
+                        <Tab className="tab-list is-size-3 subtitle is-uppercase has-text-grey-light has-text-weight-semibold">Web</Tab>
                     </TabList>
+                    <TabPanel>
+                        {/* 1st row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/positiv">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={positiv} alt="Positiv" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
 
+                                                <div className="media-content">
+                                                    <p className="title is-4">Positiv</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <p className="is-size-5">
+                                                    <span className="has-text-weight-light">Mobile app that saves positive moments in someone's everyday life.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="column is-6">
+                                <Link to="/projects/collab">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={collab} alt="Positiv" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+
+                                                <div className="media-content">
+                                                    <p className="title is-4">Collab</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <p className="is-size-5">
+                                                    <span className="has-text-weight-light">An app specifically for photoshoot collaborations to easily and safely locate shoots.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                    </TabPanel>
                     <TabPanel>
                         {/* 1st row */}
                         <div className="columns">
@@ -184,9 +241,7 @@ class Projects extends Component {
                             </div>
                         </div>
                     </TabPanel>
-                    <TabPanel>
-                        <h2>Any content 2</h2>
-                    </TabPanel>
+                    
                 </Tabs>
                 
             </section>

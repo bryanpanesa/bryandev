@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 //Components
 import Navbar from '../components/navbar.jsx';
 import Footer from '../components/footer.jsx';
-import Intro from '../components/intro.jsx';
 import Projects from '../components/projects.jsx';
 
 class Home extends Component {
@@ -11,7 +10,6 @@ class Home extends Component {
         return(
             <div>
                 <Navbar />
-                {/* <Intro /> */}
                 <Projects />
                 <Footer />
             </div>
