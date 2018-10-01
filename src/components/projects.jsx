@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from 'react-router-dom';
 import './css/projects-comp.css';
 
@@ -14,167 +15,180 @@ class Projects extends Component {
     render() {
         return(
             <section className="section">
-                {/* 1st row */}
-                <div className="columns">
-                    <div className="column is-6">
-                        <Link to="/projects/bfp">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image">
-                                    <img src={bfp} alt="Bureau of Fire Protection Region V Assessment & Reports System" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <div className="media">
-                                    
-                                    <div className="media-content">
-                                        <p className="title is-4">BFP Region V Assessment & Reports</p>
-                                    </div>
-                                    
-                                </div>
-                                <div className="content">
-                                    <div className="tags is-uppercase">
-                                        <span className="tag is-light">Php</span>
-                                        <span className="tag is-light">Bootstrap</span>
-                                        <span className="tag is-light">MySQL</span>
-                                        <span className="tag is-light">jQuery</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </Link>
-                    </div>
-                    <div className="column is-6">
-                        <Link to="/projects/phagebiotics">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image">
-                                    <img src={phagebiotics} alt="Phagebiotics: A 2D Survival Game" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <div className="media">
-                                    <div className="media-content">
-                                        <p className="title is-4">Phagebiotics: A 2D Survival Game</p>
-                                    </div>
-                                </div>
-                                <div className="content">
-                                    <div className="tags is-uppercase">
-                                        <span className="tag is-light">Java</span>
-                                        <span className="tag is-light">Photoshop</span>
-                                        <span className="tag is-light">Tile Editor</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </Link>
-                    </div>
-                </div>
-                {/* 2nd row */}
-                <div className="columns">
-                    <div className="column is-6">
-                        <Link to="/projects/gogon">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image">
-                                    <img src={gogonBlock} alt="Gogon High School Grading Module" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <div className="media">
-                                    <div className="media-content">
-                                        <p className="title is-4">Gogon High School Grading Module</p>
-                                    </div>
-                                </div>
-                                <div className="content">
-                                    <div className="tags is-uppercase">
-                                        <span className="tag is-light">Php</span>
-                                        <span className="tag is-light">Bootstrap</span>
-                                        <span className="tag is-light">MySQL</span>
-                                        <span className="tag is-light">jQuery</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </Link>
-                    </div>
-                    <div className="column is-6">
-                        <Link to="/projects/typeab">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image">
-                                    <img src={typeab} alt="Type AB" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <div className="media">
-                                    <div className="media-content">
-                                        <p className="title is-4">Type AB</p>
-                                    </div>
-                                </div>
-                                <div className="content">
-                                    <div className="tags is-uppercase">
-                                        <span className="tag is-light">Bootstrap</span>
-                                        <span className="tag is-light">jQuery</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </Link>
-                    </div>
-                </div>
-                {/* 3rd row */}
-                <div className="columns">
-                    <div className="column is-6">
-                        <Link to="/projects/inventory">
-                            <div className="card">
-                                <div className="card-image">
-                                    <figure className="image">
-                                        <img src={inventory} alt="PHP OOP C.R.U.D." />
-                                    </figure>
-                                </div>
-                                <div className="card-content">
-                                    <div className="media">
-                                        <div className="media-content">
-                                            <p className="title is-4">PHP OOP C.R.U.D.</p>
+                <Tabs className="container header" id="myHeader">
+                    <TabList className="tab flex flex-center">
+                        <Tab className="tab-list is-size-3 subtitle is-uppercase has-text-grey-light has-text-weight-semibold">Web</Tab>
+                        <Tab className="tab-list is-size-3 subtitle is-uppercase has-text-grey-light has-text-weight-semibold">UI/UX</Tab>
+                    </TabList>
+
+                    <TabPanel>
+                        {/* 1st row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/bfp">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={bfp} alt="Bureau of Fire Protection Region V Assessment & Reports System" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+
+                                                <div className="media-content">
+                                                    <p className="title is-4">BFP Region V Assessment & Reports</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Php</span>
+                                                    <span className="tag is-light">Bootstrap</span>
+                                                    <span className="tag is-light">MySQL</span>
+                                                    <span className="tag is-light">jQuery</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="content">
-                                        <div className="tags is-uppercase">
-                                            <span className="tag is-light">Php</span>
-                                            <span className="tag is-light">Bootstrap</span>
-                                            <span className="tag is-light">MySQL</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                </Link>
                             </div>
-                        </Link>
-                    </div>
-                    <div className="column is-6">
-                        <Link to="/projects/presidents">
-                            <div className="card">
-                                <div className="card-image">
-                                    <figure className="image">
-                                        <img src={presidents} alt="Type AB" />
-                                    </figure>
-                                </div>
-                                <div className="card-content">
-                                    <div className="media">
-                                        <div className="media-content">
-                                            <p className="title is-4">Presidents of the Philippines</p>
+                            <div className="column is-6">
+                                <Link to="/projects/phagebiotics">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={phagebiotics} alt="Phagebiotics: A 2D Survival Game" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-content">
+                                                    <p className="title is-4">Phagebiotics: A 2D Survival Game</p>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Java</span>
+                                                    <span className="tag is-light">Photoshop</span>
+                                                    <span className="tag is-light">Tile Editor</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="content">
-                                        <div className="tags is-uppercase">
-                                            <span className="tag is-light">Bootstrap</span>
-                                            <span className="tag is-light">jQuery</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                </Link>
                             </div>
-                        </Link>
-                    </div>
-                </div>
+                        </div>
+                        {/* 2nd row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/gogon">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={gogonBlock} alt="Gogon High School Grading Module" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-content">
+                                                    <p className="title is-4">Gogon High School Grading Module</p>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Php</span>
+                                                    <span className="tag is-light">Bootstrap</span>
+                                                    <span className="tag is-light">MySQL</span>
+                                                    <span className="tag is-light">jQuery</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="column is-6">
+                                <Link to="/projects/typeab">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={typeab} alt="Type AB" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-content">
+                                                    <p className="title is-4">Type AB</p>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Bootstrap</span>
+                                                    <span className="tag is-light">jQuery</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        {/* 3rd row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/inventory">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={inventory} alt="PHP OOP C.R.U.D." />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-content">
+                                                    <p className="title is-4">PHP OOP C.R.U.D.</p>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Php</span>
+                                                    <span className="tag is-light">Bootstrap</span>
+                                                    <span className="tag is-light">MySQL</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="column is-6">
+                                <Link to="/projects/presidents">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={presidents} alt="Type AB" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-content">
+                                                    <p className="title is-4">Presidents of the Philippines</p>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="tags is-uppercase">
+                                                    <span className="tag is-light">Bootstrap</span>
+                                                    <span className="tag is-light">jQuery</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                    </TabPanel>
+                    <TabPanel>
+                        <h2>Any content 2</h2>
+                    </TabPanel>
+                </Tabs>
+                
             </section>
         );
     }

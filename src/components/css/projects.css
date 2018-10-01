@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex-center {
+    justify-content: center;
+}
+
+.tab {
+    padding: 0 0 2rem 0;
+}
+.tab
+.tab-list {
+    margin: 0 1rem;
+}
+.tab
+.tab-list:hover {
+    cursor: pointer;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+}
