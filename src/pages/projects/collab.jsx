@@ -58,7 +58,7 @@ class Collab extends Component {
                                     <div className="card">
                                         <div className="card-image">
                                             <figure className="image">
-                                                <img src={collab1} alt="Fire Safety Inspection Certificate" />
+                                                <img src={collab1} alt="Collab" />
                                             </figure>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ class Collab extends Component {
                                     <div className="card">
                                         <div className="card-image">
                                             <figure className="image">
-                                                <img src={collab2} alt="Fire Safety Evaluation Clearance" />
+                                                <img src={collab2} alt="Collab" />
                                             </figure>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ class Collab extends Component {
                                     <div className="card">
                                         <div className="card-image">
                                             <figure className="image">
-                                                <img src={collab3} alt="Fire Safety Inspection Certificate" />
+                                                <img src={collab3} alt="Collab" />
                                             </figure>
                                         </div>
                                     </div>

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 //UI & UX Design
 import positiv from '../images/projects/positiv/positiv.jpg';
 import collab from '../images/projects/collab/collab.jpg';
+import letgo from '../images/projects/letgo/letgo.jpg';
 
 //Web
 import bfp from '../images/projects/bfp/Bfp-block.jpg';
@@ -70,6 +71,36 @@ class Projects extends Component {
                                             <div className="content">
                                                 <p className="is-size-5">
                                                     <span className="has-text-weight-light">An app specifically for photoshoot collaborations to easily and safely locate shoots.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+
+
+                        {/* 1st row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/letgo">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={letgo} alt="Letgo" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+
+                                                <div className="media-content">
+                                                    <p className="title is-4">Letgo</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <p className="is-size-5">
+                                                    <span className="has-text-weight-light">App used to help users limit or quit the usage of mobile apps like games and social media.</span>
                                                 </p>
                                             </div>
                                         </div>
