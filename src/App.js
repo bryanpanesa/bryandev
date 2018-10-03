@@ -18,6 +18,7 @@ import Presidents from './pages/projects/presidents.jsx';
 import Positiv from './pages/projects/positiv.jsx';
 import Collab from './pages/projects/collab.jsx';
 import Letgo from './pages/projects/letgo.jsx';
+import Oilprice from './pages/projects/oilprice.jsx';
 
 class App extends Component {
   render() {
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/projects/positiv" component={Positiv} />
           <Route path="/projects/collab" component={Collab} />
           <Route path="/projects/letgo" component={Letgo} />
+          <Route path="/projects/oilprice" component={Oilprice} />
           <Route path="/photography" component={Photography} />
         </Switch>
       </HashRouter>

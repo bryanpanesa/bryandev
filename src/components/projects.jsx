@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import positiv from '../images/projects/positiv/positiv.jpg';
 import collab from '../images/projects/collab/collab.jpg';
 import letgo from '../images/projects/letgo/letgo.jpg';
+import oilprice from '../images/projects/oilprice/oilprice.jpg';
 
 //Web
 import bfp from '../images/projects/bfp/Bfp-block.jpg';
@@ -80,7 +81,7 @@ class Projects extends Component {
                         </div>
 
 
-                        {/* 1st row */}
+                        {/* 2nd row */}
                         <div className="columns">
                             <div className="column is-6">
                                 <Link to="/projects/letgo">
@@ -101,6 +102,31 @@ class Projects extends Component {
                                             <div className="content">
                                                 <p className="is-size-5">
                                                     <span className="has-text-weight-light">App used to help users limit or quit the usage of mobile apps like games and social media.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                            <div className="column is-6">
+                                <Link to="/projects/oilprice">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={oilprice} alt="Philippine Oil Price Hike" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+
+                                                <div className="media-content">
+                                                    <p className="title is-4">Philippine Oil Price Hike</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <p className="is-size-5">
+                                                    <span className="has-text-weight-light">App that tracks oil price changes in the Philippine market and sees realtime and upcoming oil price changes.</span>
                                                 </p>
                                             </div>
                                         </div>
