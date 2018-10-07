@@ -7,6 +7,7 @@ import positiv from '../images/projects/positiv/positiv.jpg';
 import collab from '../images/projects/collab/collab.jpg';
 import letgo from '../images/projects/letgo/letgo.jpg';
 import oilprice from '../images/projects/oilprice/oilprice.jpg';
+import commitlogs from '../images/projects/commitlogs/commitlogs.jpg';
 
 //Web
 import bfp from '../images/projects/bfp/Bfp-block.jpg';
@@ -80,7 +81,6 @@ class Projects extends Component {
                             </div>
                         </div>
 
-
                         {/* 2nd row */}
                         <div className="columns">
                             <div className="column is-6">
@@ -127,6 +127,35 @@ class Projects extends Component {
                                             <div className="content">
                                                 <p className="is-size-5">
                                                     <span className="has-text-weight-light">App that tracks oil price changes in the Philippine market and sees realtime and upcoming oil price changes.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+
+                        {/* 3rd row */}
+                        <div className="columns">
+                            <div className="column is-6">
+                                <Link to="/projects/commitlogs">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image">
+                                                <img src={commitlogs} alt="Letgo" />
+                                            </figure>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="media">
+
+                                                <div className="media-content">
+                                                    <p className="title is-4">Commit Logs From Last Night</p>
+                                                </div>
+
+                                            </div>
+                                            <div className="content">
+                                                <p className="is-size-5">
+                                                    <span className="has-text-weight-light">Mobile app design of the famout 'Commit Logs From Last Night' website.</span>
                                                 </p>
                                             </div>
                                         </div>
